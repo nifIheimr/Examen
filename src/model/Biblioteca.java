@@ -7,6 +7,8 @@ import java.util.Scanner;
 
 /**
  * @author Daniel Juanes Sánchez
+ * 
+ * Definicion de clase Biblioteca
  */
 public class Biblioteca implements Serializable {
     private ArrayList<Libro> listaLibros;

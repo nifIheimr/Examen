@@ -15,7 +15,8 @@ import java.nio.file.FileSystemNotFoundException;
 /**
  * @author Daniel Juanes Sánchez
  * 
- * El modelo contiene toda la parte de datos del programa y los metodos referentes al tratamiento de estos, aqui se crean y se destruyen los objetos con los que se va a tratar durante el runtime del programa
+ * El modelo contiene toda la parte de datos del programa y los metodos referentes a ellos (en general), los metodos especificos de cada
+ * clase seguiran dentro de la que corresponda, aqui se crean y se destruyen los objetos con los que se va a tratar durante el runtime del programa.
  */
 public class Model implements Serializable {
     Biblioteca b = new Biblioteca();

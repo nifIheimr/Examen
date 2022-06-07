@@ -7,6 +7,8 @@ import model.Model;
 import util.Paths;
 /**
  * @author Daniel Juanes Sánchez
+ * 
+ * El controller sirve como un intermediario para encapsular los datos y evitar acceso directo por parte del usuario, siguiendo la filosofía de la programación orientada a objetos
  */
 
 public class Controller implements Serializable {
